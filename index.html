@@ -13,50 +13,75 @@
 </head>
 <body >
     <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-transparent">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">SURF CLUB</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SURF CLUB </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SURF CLUB ARGENTINA</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Nosotros</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Productos</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Surf Trainer</a></li>
-                                    <li><a class="dropdown-item" href="#">Percheros</a></li>
-                                    <li><a class="dropdown-item" href="#">Porta Tablas</a></li>
-                                </ul>
-                            </li> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Ubicacion</a>
-                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contacto</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ubicacion</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Surf Trainer</a></li>
+                                    <li><a class="dropdown-item" href="#">Portatablas</a></li>
+                                    <li><a class="dropdown-item" href="#">Percheros</a></li>
+                                    <li><a class="dropdown-item" href="#">Destapabirra</a></li>
+                                    <li><a class="dropdown-item" href="#">Llaveros</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Y mas...</a></li>
+                                </ul>
+                            </li>
                         </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-            </nav>
-            <div class="container-fluid">
-                background: url:"vi                                         
             </div>
+        </nav>
+        <div class="container-fluid video-container ">
+            <video src="img/video/5380cf9c333b42b686d1dbc52edd943e (1).mov" autoplay muted loop poster="" class=""></video>                                        
+        </div>
     </header>
     <section class="row" >
         <div class="col-8" style="background-color: red">
-            <img src="img/logoTablasX.jpg" alt="">
+            <img src="img/logoTablasX.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-4" style="background-color: yellow">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, esse dolore. Saepe totam neque eligendi aliquam est magni facere quaerat,</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipis</p>
         </div>
     </section>
+    <section class="row" >
+        <div class="col-4" style="background-color: greenyellow">
+            <p>Lorem ipsum dolor sit amet consectetur, adipis</p>
+        </div>
+        <div class="col-8" style="background-color: green">
+            <img src="img/logoTablasX.jpg" class="img-fluid" alt="">
+        </div>
+    </section>
+
+
+
     <footer>
         <div>
             <div>
