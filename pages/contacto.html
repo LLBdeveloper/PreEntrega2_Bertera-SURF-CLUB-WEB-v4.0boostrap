@@ -54,50 +54,72 @@
         </nav>
     </header>
 
-
-
-
-
-
-    <main class="conteiner">
-        <div class="row row-cols-1 row-cols-sm-2 g-3">
-            <div class="col">
-            <div class="card">
-                <img src="../img/perchero3q800x600.jpg" class="card-img-top card__img--mod" alt="card-grid-image">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div class="card">
-                <img src="../img/perchero3q800x600.jpg" class="card-img-top card__img--mod" alt="card-grid-image">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div class="card">
-                <img src="../img/perchero3q800x600.jpg" class="card-img-top card__img--mod" alt="card-grid-image">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div class="card">
-                <img src="../img/perchero3q800x600.jpg" class="card-img-top card__img--mod" alt="card-grid-image">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-        </div>
+    <main class="fondoMain">
+        <section>
+            <form>
+                <fieldset class="formulario">
+                    <legend>CONTACTA CON NOSOTROS</legend>
+                    <div>
+                        <label for="Nombre completo">Nombre completo:</label>
+                        <input type="text" id="Nombre completo" name="Nombre conpleto" placeholder="Ingresa tu nombre completo"/><br>
+                    </div>
+                    <div>   
+                        <label for="Telefono">Telefono:</label>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="Ingresa tu numero"/><br>
+                    </div>
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input value="ejemplo@gmail.com" type="Email" id="Email" name="Email" placeholder="Ingresa tu Email"/><br>
+                    </div>
+                    <div>
+                        <p>Por donde nos conoces:</p>
+                        
+                        <label for="Instagram">Instagram</label>
+                        <input type="checkbox" id="Instagram">
+                        
+                        <label for="Facebook">Facebook</label>
+                        <input type="checkbox" id="Facebook">
+                        
+                        <label for="Mercadolibre">Mercadolibre</label>
+                        <input type="checkbox" id="Mercadolibre">
+                        
+                        <label for="unAmigo">Un amigo</label>
+                        <input type="checkbox" id="unAmigo">
+                    </div>
+                    <div>
+                        <fieldset class="sosmayorista">
+                            <legend>¿Sos mayorista?</legend>
+                            <div>
+                                <label for="si">SI</label>
+                                <input type="radio" name="Sos mayorista" id="si">
+                            </div>
+                            <div>
+                                <label for="no">NO</label>
+                                <input type="radio" name="Sos mayorista" id="no">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label for="select">Tipo de consulta</label>
+                        <select id="select" name="sectorSelect">
+                            <option value="selecione" disabled>Seleccione una opcion</option>
+                            <option value="Atencion al cliente">Atencion al cliente</option>
+                            <option value="Ventas">Ventas</option>
+                            <option value="Envios">Envios</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Escribi tu mensaje</p>
+                        <label for="Dejanos tu mensaje">Detallanos aca:</label>
+                        <textarea cols="100" rows="15" id="dejanos tu mensjae" name="Dejanos tu mensaje" placeholder="Escribi aca tu mensaje..."></textarea>
+                    </div>
+                    <div class="botones">
+                        <input type="submit" value="Enviar" />
+                        <input type="reset" value="Limpiar Formulario">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
 
 
@@ -115,7 +137,6 @@
                     <li class="nav-item mb-2"><a href="ubicacion.html" class="nav-link p-1 text-muted">Ubicacion</a></li>
                 </ul>
                 </div>
-        
                 <div class="col-6 col-md-2 mb-3">
                 <h5 class="footer__tittle--mod">Interés</h5>
                 <ul class="nav flex-column">
@@ -126,7 +147,6 @@
                     <li class="nav-item mb-2"><a href="https://www.windguru.cz/75752" class="nav-link p-1 text-muted">Wind</a></li>
                 </ul>
                 </div>
-        
                 <div class="col-6 col-md-2 mb-3">
                 <h5 class="footer__tittle--mod">Ayuda</h5>
                 <ul class="nav flex-column">
@@ -137,7 +157,6 @@
                     <li class="nav-item mb-2"><a href="https://www.cristobalcolon.com/terminos_y_condiciones.html" class="nav-link p-1 text-muted">Términos y condiciones</a></li>
                 </ul>
                 </div>
-        
                 <div class="col-md-5 offset-md-1 mb-3">
                 <form>
                     <h5 class="footer__tittle--mod">Suscripción  Newsletter</h5>
@@ -150,7 +169,6 @@
                 </form>
                 </div>
             </div>
-        
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>&copy; 2022 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
@@ -174,7 +192,6 @@
             </footer>
         </div>
     </footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
