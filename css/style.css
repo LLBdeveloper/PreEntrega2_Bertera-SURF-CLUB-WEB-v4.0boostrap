@@ -9,11 +9,6 @@ html {
     font-size: 62.5%;
 } 
 
-
-header {
-    overflow: hidden;
-}
-
 main {
     width: 100vw;
 }
@@ -246,7 +241,6 @@ footer {
         font-size: 1rem;
     }
 }
-
 
 /* contacto.html */
 .formulario {
