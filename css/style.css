@@ -77,6 +77,14 @@ footer {
     width: 4rem;
 }
 
+.article__img {
+    max-width: 60rem;
+}
 
-
+.grid {
+    grid-template-areas: 
+    "portada portada portada"
+    "article1 article2 aside"
+    "foto foto aside";
+}
 

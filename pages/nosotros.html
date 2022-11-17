@@ -54,20 +54,45 @@
         </nav>
     </header>
 
-    <main>
-        <section class="contenedorflex">
-            <article class="contenedorflex__textoimg">
+    <main class="">
+        <section class="grid">
+            <div class="grid__portada">
+                <img src="../img/folletosurfclub.JPG" class="portada article__img" alt="folleto">
+            </div>
+            <article class="grid__article1">
                 <h2>Sobre nosotros</h2>
-                <p>Somos una empresa nacida en Argentina, mas bien de  Buenos Aires, destinada a  fabricar tablas de equilibrio, porta tablas, rampas de skate. Desde 2017 fabricando las mejores balance board, totalmente simetricas, mucho style en sus colores, madera de la mejor calidad.<br><br>Fabricadas por riders, para riders. </p>
-                <img src="../img/folletosurfclub.JPG"  alt="folleto">
-                <img src="../img/tabla-horizontal.jpg"  alt="tablasurf2">
+                <p>Somos una empresa nacida en Argentina, mas bien de  Buenos Aires, destinada a  fabricar tablas de equilibrio, porta tablas, rampas de skate. Desde 2017 fabricando las mejores balance board, totalmente simetricas, mucho style en sus colores, madera de la mejor calidad. </p>
+                <img src="../img/tabla-horizontal.jpg" class="article__img" alt="tablasurf2">
             </article>
-            <article class="contenedorflex__textoimg">
+            <article class="grid__article2">
                 <h2>Nuestro taller</h2>
                 <p>Todas nuestros productos son cortados a pulso, ,con una alta presicion y experiencia en el rubro. En nuestro taller todo pasa por un tratamiento para que duren nuestros productos al maximo.</p>
-                <img src="../img/fotos pesadas/taller.jpg"  alt="fototaller">
-                <img src="../img/tablahorizontalx2.jpg"  alt="tablasurf" >
+                <img src="../img/fotos-pesadas/taller.jpg" class="article__img" alt="fototaller">
+                <img src="../img/tablahorizontalx2.jpg" class="article__img" alt="tablasurf" >
             </article>
+            <aside class="grid__aside">
+                <p class="em grid__aside--textvertical">Fabricadas por riders, para riders.</p>
+            </aside>
+        </section>
+        <hr>
+        <div class="divboton">
+            <a class="divboton__botoncontacto">
+                Para mas informacion ponete en contacto con nosotros aca.
+            </a>
+        </div>
+        <hr>
+        <section>
+            <div class="row" >
+                <div class="col-sm-4 col-xs-12 centerimg wow animate__animated animate__zoomIn" >
+                    <img src="img/logosnowTRAINER450x450.jpg" class="img-fluid wow animate__animated animate__zoomInLeft" alt="">
+                </div>
+                <div class="col-sm-4 col-xs-12 centerimg" >
+                    <img src="img/logosurfTRAINER450x450.jpg" class="img-fluid wow animate__animated animate__zoomIn" alt="">
+                </div>
+                <div class="col-sm-4 col-xs-12 centerimg" >
+                    <img src="img/logokiteTRAINER450x450.jpg" class="img-fluid wow animate__animated animate__zoomInRight" alt="">
+                </div>
+            </div>
         </section>
     </main>
 
@@ -118,7 +143,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                <p>© 2022 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3">
                         <a class="link-dark" Target="_blank" href="https://www.instagram.com/surfclub.arg/">
@@ -140,7 +165,6 @@
             </footer>
         </div>
     </footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
